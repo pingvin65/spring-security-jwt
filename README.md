@@ -19,7 +19,7 @@ $ curl --location --request POST 'http://localhost:8080/authenticate' \
 
 ```
 curl --location --request GET 'http://localhost:8080/hello' \
-> --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNTk2ODEwMjM3LCJpYXQiOjE1OTY3NzQyMzd9.D28wvSZ38nZtAgMBD4dNclLfwaQzBeCKC8zPN5ZCE_A'
+ --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNTk2ODEwMjM3LCJpYXQiOjE1OTY3NzQyMzd9.D28wvSZ38nZtAgMBD4dNclLfwaQzBeCKC8zPN5ZCE_A'
 ```
 return
 ```
@@ -28,7 +28,7 @@ Hello World!
 or
 ```
 curl --location --request GET 'http://localhost:8080/hello?name=Jon' \
-> --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNTk2ODEwMjM3LCJpYXQiOjE1OTY3NzQyMzd9.D28wvSZ38nZtAgMBD4dNclLfwaQzBeCKC8zPN5ZCE_A'
+ --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNTk2ODEwMjM3LCJpYXQiOjE1OTY3NzQyMzd9.D28wvSZ38nZtAgMBD4dNclLfwaQzBeCKC8zPN5ZCE_A'
 ```
 return
 ```
