@@ -15,7 +15,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.sasa.spring.security.jwt.AppUserDetailsService;
+import com.sasa.spring.security.jwt.services.AppUserDetailsService;
 import com.sasa.spring.security.jwt.utlies.JwtUtil;
 
 @Component

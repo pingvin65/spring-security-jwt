@@ -1,4 +1,4 @@
-package com.sasa.spring.security.jwt;
+package com.sasa.spring.security.jwt.services;
 
 import java.util.ArrayList;
 
@@ -15,8 +15,10 @@ public class AppUserDetailsService implements UserDetailsService {
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		if (username.compareTo("user") == 0) {
 			return new User("user", "password", new ArrayList<>());
+		} else {
+			throw new UsernameNotFoundException("User not found with username: " + username);
 		}
-		return null;
+		
 	}
 
 }

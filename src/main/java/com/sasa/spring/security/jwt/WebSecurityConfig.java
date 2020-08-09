@@ -13,6 +13,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import com.sasa.spring.security.jwt.filters.JwtRequestFilter;
+import com.sasa.spring.security.jwt.services.AppUserDetailsService;
 
 @SuppressWarnings("deprecation")
 @EnableWebSecurity
